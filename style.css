@@ -1,0 +1,101 @@
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o formulário */
+#todo-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#todo-form input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#todo-form button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#todo-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a lista de tarefas */
+#content-container {
+    flex: 1;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#todo-list li:hover {
+    background-color: #e0e0e0;
+}
+
+#todo-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Estilo para o menu na lateral esquerda */
+#todo-menu {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    overflow-y: auto;
+}
+
+#todo-menu h2 {
+    margin-bottom: 10px;
+}
+
+#completed-tasks {
+    list-style-type: none;
+    padding: 0;
+}
+
+#completed-tasks li {
+    margin-bottom: 10px;
+}
+
+#completed-tasks li label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#completed-tasks li input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
